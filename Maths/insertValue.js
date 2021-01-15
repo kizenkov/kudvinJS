@@ -2,17 +2,6 @@ let arr = [];
 let ball = document.querySelector('.ball');
 let timer = document.querySelector('#timer');
 
-//timer
-let secInTimer = 59;
-timer.innerHTML = 'Осталось: 1 мин 00 сек';
-let showTime = setInterval(function () {
-    timer.innerHTML = 'Осталось: 0 мин ' + secInTimer + ' сек';
-    if (secInTimer < 10 && secInTimer >= 0) {
-        timer.innerHTML = 'Осталось: 0 мин 0' + secInTimer + ' сек';
-    }
-    secInTimer--;
-}, 1000);
-
 let newExample = {
     colorsArray: ['yellow', 'blueviolet', 'crimson', 'deeppink', 'green', 'lightcoral', 'blue', 'purple', 'brown'],
     input1: null,
@@ -92,7 +81,6 @@ let newExample = {
     showResult: function () {
         let score = 0;
         clearInterval(showTime);
-        clearInterval(stopExample);
 
         arr.forEach(function (el) {
             if ((+el[4].value === el[1] - el[0])) {
@@ -131,7 +119,19 @@ let newExample = {
     }
 }
 
-let stopExample = setTimeout(() => newExample.showResult(), 61000);
+//timer
+let secInTimer = 59;
+timer.innerHTML = 'Осталось: 1 мин 00 сек';
+let showTime = setInterval(function () {
+    timer.innerHTML = 'Осталось: 0 мин ' + secInTimer + ' сек';
+    if (secInTimer < 10 && secInTimer >= 0) {
+        timer.innerHTML = 'Осталось: 0 мин 0' + secInTimer + ' сек';
+    }
+    secInTimer--;
+    if (secInTimer === -1) {
+        newExample.showResult();
+    }
+}, 1000);
 
 function createPage() {
     newExample.create('1');
