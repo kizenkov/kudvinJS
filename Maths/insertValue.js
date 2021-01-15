@@ -131,7 +131,7 @@ let newExample = {
     }
 }
 
-let stopExample = setTimeout(() => newExample.showResult(), 60000);
+let stopExample = setTimeout(() => newExample.showResult(), 61000);
 
 function createPage() {
     newExample.create('1');
