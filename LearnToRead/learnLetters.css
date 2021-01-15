@@ -1,0 +1,60 @@
+#page {
+  background-image: url(./back.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+#word {
+  font-size: 460px;
+  color: deeppink;
+  font-weight: bold;
+  transition: all .5s;
+  /*margin-top: 100px;*/
+}
+
+.sidebar {
+  position: fixed;
+  bottom: 550px;
+  left: 1100px;
+}
+
+a {
+  text-decoration: none;
+  color: crimson;
+  font-size: 32px;
+  border: 3px solid crimson;
+  border-radius: 10px;
+  background-color: cyan;
+  padding: 20px;
+}
+
+.sidebar a:hover {
+  color: chartreuse;
+}
+
+#prevBtn, #nextBtn {
+  border: 3px solid crimson;
+  font-size: 20px;
+  background-color: cyan;
+  border-radius: 10px;
+  position: fixed;
+  top: 560px;
+}
+
+#prevBtn {
+  right: 1050px;
+}
+
+#nextBtn {
+  right: 250px;
+}
+
+#changeLetters {
+  margin-right: 300px;
+}
+
+.changeLettersButton {
+  background-color: aqua;
+  border-radius: 5px;
+  color: crimson;
+}

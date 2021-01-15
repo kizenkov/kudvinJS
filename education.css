@@ -1,0 +1,25 @@
+body {
+  background-image: url(./back.png);
+  background-color: burlywood;
+  background-size: auto;
+  text-align: center;
+}
+
+.nameD, .nameU {
+  font-size: 100px;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.nameD {
+  position: absolute;
+  top: 230px;
+  right: 860px;
+}
+
+.nameU {
+  position: absolute;
+  top: 230px;
+  left: 860px;
+}

@@ -1,0 +1,19 @@
+body {
+  background-image: url(./back.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+a {
+  font-size: 40px;
+  color: cornflowerblue;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: palegoldenrod;
+  border: 5px solid darksalmon;
+}
+
+div {
+  padding: 50px;
+}

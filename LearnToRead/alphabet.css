@@ -1,0 +1,29 @@
+body {
+  margin: 0 auto;
+  text-align: center;
+  background-image: url(./back.jpg);
+  background-size: inherit;
+}
+
+a {
+  color: crimson;
+  font-size: 32px;
+  text-decoration: none;
+  border: 3px solid crimson;
+  border-radius: 10px;
+  background-color: cyan;
+  padding: 20px;
+}
+
+a:hover {
+  color: brown;
+}
+
+.learn {
+  padding: 60px;
+}
+
+img {
+  margin-top: 40px;
+  border-radius: 10px;
+}
