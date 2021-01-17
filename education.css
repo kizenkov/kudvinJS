@@ -1,7 +1,7 @@
 body {
-  background-image: url(./back.png);
+ 
   background-color: burlywood;
-  background-size: auto;
+ 
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -13,5 +13,5 @@ body {
   color: white;
   text-decoration: none;
   padding: 20px;
-  margin-top: 200px;
+ 
 }
