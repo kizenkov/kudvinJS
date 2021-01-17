@@ -3,23 +3,15 @@ body {
   background-color: burlywood;
   background-size: auto;
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
+
 
 .nameD, .nameU {
   font-size: 100px;
   color: white;
   text-decoration: none;
   padding: 20px;
-}
-
-.nameD {
-  position: absolute;
-  top: 230px;
-  right: 860px;
-}
-
-.nameU {
-  position: absolute;
-  top: 230px;
-  left: 860px;
+  margin-top: 200px;
 }
