@@ -1,7 +1,7 @@
 body {
- 
+  background-image: url(./back.png);
   background-color: burlywood;
- 
+  background-size: auto;
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
