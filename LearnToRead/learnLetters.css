@@ -8,7 +8,6 @@
           'p w n';
   grid-template-rows: 30vh 60vh;
   grid-gap: 1em;
-  align-self: center;
 }
 
 #changeLetters {
@@ -33,21 +32,21 @@
   border-radius: 0.25em;
   margin: 2em;
   width: auto;
+  height: 25vh;
+  align-self: center;
 }
 
 #prevBtn {
   grid-area: p;
-  align-self: center;
 }
 
 #nextBtn {
   grid-area: n;
-  align-self: center;
 }
 
 .changeLettersButton {
-  margin: 0.3em;
-  font-size: 1em;
+  margin: 0.1em;
+  font-size: 1.2em;
   background-color: aqua;
   border-radius: 0.25em;
 }
