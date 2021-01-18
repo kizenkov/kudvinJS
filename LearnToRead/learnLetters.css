@@ -6,6 +6,7 @@
   grid-template-areas:
           'ch ch ch'
           'p w n';
+  grid-template-rows: 30% 60%;
 }
 
 #changeLetters {
