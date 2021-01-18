@@ -21,6 +21,7 @@
   color: deeppink;
   font-weight: bold;
   transition: all .5s;
+  align-self: end;
 }
 
 #prevBtn, #nextBtn {
@@ -43,7 +44,7 @@
 }
 
 .changeLettersButton {
-  font-size: 2em;
+  font-size: 1.5em;
   background-color: aqua;
   border-radius: 0.5em;
 }
