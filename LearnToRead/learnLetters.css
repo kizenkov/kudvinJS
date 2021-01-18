@@ -16,7 +16,8 @@
 #word {
   grid-area: w;
   width: 60vw;
-  font-size: 50vw;
+  max-height: 90%;
+  font-size: 60vw;
   color: deeppink;
   font-weight: bold;
   transition: all .5s;
@@ -42,6 +43,7 @@
 }
 
 .changeLettersButton {
+  font-size: 2em;
   background-color: aqua;
   border-radius: 0.5em;
 }
