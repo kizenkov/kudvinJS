@@ -17,8 +17,7 @@
 #word {
   grid-area: w;
   width: 60vw;
-  max-height: 50vh;
-  font-size: 60vw;
+  height: 50vh;
   color: deeppink;
   font-weight: bold;
   transition: all .5s;
@@ -32,9 +31,9 @@
   border-radius: 0.25em;
   margin: 2em;
   width: auto;
-  height: 25vh;
-  align-self: center;
-}
+  height: 15vh;
+  align-self: end;
+}8
 
 #prevBtn {
   grid-area: p;
