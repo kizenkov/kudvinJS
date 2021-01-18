@@ -15,7 +15,7 @@
 #word {
   grid-area: w;
   width: 60vw;
-  font-size: 50vw;
+  font-size: 60vw;
   color: deeppink;
   font-weight: bold;
   transition: all .5s;
@@ -43,7 +43,6 @@
 .changeLettersButton {
   background-color: aqua;
   border-radius: 0.5em;
-  color: crimson;
 }
 
 h2 {
