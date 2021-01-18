@@ -18,8 +18,8 @@
 #word {
   text-align: center;
   grid-area: w;
-  width: 80vw;
-  font-size: 80vw;
+  width: 70vw;
+  font-size: 70vw;
   color: deeppink;
   font-weight: bold;
   transition: all .5s;
