@@ -28,12 +28,12 @@
 
 #prevBtn, #nextBtn {
   border: 0.1em solid crimson;
-  font-size: 2vw;
+  font-size: 1em;
   background-color: aqua;
-  border-radius: 0.25em;
+  border-radius: 0.5em;
   width: auto;
   height: 15vh;
-  align-self: end;
+  align-self: center;
   margin: 0.5em;
 }
 
