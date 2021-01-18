@@ -12,6 +12,7 @@
 
 #changeLetters {
   grid-area: ch;
+  margin: 0.5 em;
 }
 
 #word {
