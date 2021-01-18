@@ -5,10 +5,11 @@
   display: grid;
   grid-template-areas:
           'ch ch ch'
-          '. w .' 
+          'w w w' 
           'p . n';
-  grid-template-rows: 2fr 5fr 1fr;
+  grid-template-rows: 25vh 55vh 15vh;
   grid-gap: 1em;
+  margin: 1em;
 }
 
 #changeLetters {
@@ -17,6 +18,7 @@
 }
 
 #word {
+  text-align: center;
   grid-area: w;
   width: 80vw;
   font-size: 80vw;
@@ -29,7 +31,7 @@
   border: 0.1em solid crimson;
   width: 11em;
   height: 7em;
-  background-color: aqua;
+  background-color: green;
   border-radius: 2em;
 }
 
