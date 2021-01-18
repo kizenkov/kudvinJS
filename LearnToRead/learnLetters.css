@@ -6,7 +6,7 @@
   grid-template-areas:
           'ch ch ch'
           'p w n';
-  grid-template-rows: 30% 60%;
+  grid-template-rows: 30vh 60vh;
 }
 
 #changeLetters {
@@ -16,7 +16,7 @@
 #word {
   grid-area: w;
   width: 60vw;
-  font-size: 60vw;
+  font-size: 50vw;
   color: deeppink;
   font-weight: bold;
   transition: all .5s;
@@ -33,12 +33,12 @@
 
 #prevBtn {
   grid-area: p;
-  align-self: end;
+  align-self: center;
 }
 
 #nextBtn {
   grid-area: n;
-  align-self: end;
+  align-self: center;
 }
 
 .changeLettersButton {
