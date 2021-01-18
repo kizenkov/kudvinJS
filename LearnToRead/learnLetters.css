@@ -28,7 +28,8 @@
 
 #prevBtn, #nextBtn {
   border: 0.1em solid crimson;
-  font-size: 1em;
+  width: 1em;
+  height: 1em;
   background-color: aqua;
   border-radius: 0.5em;
   align-self: center;
