@@ -16,12 +16,12 @@
 #word {
   grid-area: w;
   width: 60vw;
-  max-height: 90%;
+  max-height: 50%;
   font-size: 60vw;
   color: deeppink;
   font-weight: bold;
   transition: all .5s;
-  align-self: end;
+  align-self: center;
 }
 
 #prevBtn, #nextBtn {
