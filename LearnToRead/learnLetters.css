@@ -14,8 +14,8 @@
 
 #word {
   grid-area: w;
-  width: 40vw;
-  font-size: 70vh;
+  width: 60vw;
+  font-size: 50vw;
   color: deeppink;
   font-weight: bold;
   transition: all .5s;
