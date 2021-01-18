@@ -17,22 +17,20 @@
 }
 
 #word {
-  text-align: center;
   grid-area: w;
-  width: 70vw;
-  font-size: 70vw;
+  width: 80vw;
+  font-size: 80vw;
   color: deeppink;
   font-weight: bold;
   transition: all .5s;
-  align-self: center;
 }
 
 #prevBtn, #nextBtn {
   border: 0.1em solid crimson;
-  width: 15em;
-  height: 10em;
+  width: 11em;
+  height: 7em;
   background-color: aqua;
-  border-radius: 1em;
+  border-radius: 2em;
   align-self: center;
 }
 
