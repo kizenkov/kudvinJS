@@ -18,7 +18,7 @@
 }
 
 #word {
-  aligh-self: end;
+  align-self: end;
   grid-area: w;
   width: 75vw;
   font-size: 75vw;
