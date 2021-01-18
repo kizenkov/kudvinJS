@@ -5,8 +5,9 @@
   display: grid;
   grid-template-areas:
           'ch ch ch'
-          'p w n';
-  grid-template-rows: 30vh 60vh;
+          'w w w' 
+          'p . n';
+  grid-template-rows: 3fr 6fr 2fr;
   grid-gap: 1em;
 }
 
@@ -28,10 +29,10 @@
 
 #prevBtn, #nextBtn {
   border: 0.1em solid crimson;
-  width: 1em;
-  height: 1em;
+  width: 15em;
+  height: 10em;
   background-color: aqua;
-  border-radius: 0.5em;
+  border-radius: 1em;
   align-self: center;
 }
 
