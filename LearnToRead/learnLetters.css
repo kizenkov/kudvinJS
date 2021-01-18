@@ -18,7 +18,7 @@
   text-align: center;
   grid-area: w;
   width: 75vw;
-  font-size: 70vw;
+  font-size: 75vw;
   color: deeppink;
   font-weight: bold;
   transition: all .5s;
@@ -33,6 +33,7 @@
   width: auto;
   height: 15vh;
   align-self: end;
+  margin: 0.5em;
 }
 
 #prevBtn {
