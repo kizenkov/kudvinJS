@@ -7,7 +7,7 @@
           'ch ch ch'
           'w w w' 
           'p . n';
-  grid-template-rows: 25vh 50vh 12vh;
+  grid-template-rows: 23vh 49vh 12vh;
   grid-gap: 1em;
   margin: 1em;
 }
@@ -32,7 +32,7 @@
   border: 0.1em solid crimson;
   width: 11em;
   height: 7em;
-  background-color: aqua;
+  background-color: red;
   border-radius: 2em;
 }
 
