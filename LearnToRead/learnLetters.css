@@ -7,7 +7,7 @@
           'ch ch ch'
           '. w .' 
           'p . n';
-  grid-template-rows: 30vh 50vh 15vh;
+  grid-template-rows: 40vw 100vw 20vw;
   grid-gap: 1em;
   margin: 1em;
 }
@@ -19,8 +19,8 @@
 
 #word {
   grid-area: w;
-  width: 70vw;
-  font-size: 70vw;
+  width: 90vw;
+  font-size: 90vw;
   align-self: end;
   color: deeppink;
   font-weight: bold;
@@ -31,7 +31,7 @@
   border: 0.1em solid crimson;
   width: 11em;
   height: 7em;
-  background-color: red;
+  background-color: green;
   border-radius: 2em;
 }
 
