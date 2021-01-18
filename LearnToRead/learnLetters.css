@@ -5,7 +5,7 @@
   text-align: center;
   grid-template-areas:
           'ch ch ch'
-          'w w w' 
+          '. w .' 
           'p . n';
   grid-template-rows: 23vh 49vh 12vh;
   grid-gap: 1em;
@@ -22,7 +22,6 @@
   width: 70vw;
   font-size: 70vw;
   align-self: end;
-  justify-content: center;
   color: deeppink;
   font-weight: bold;
   transition: all .5s;
