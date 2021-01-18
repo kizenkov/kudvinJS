@@ -7,7 +7,7 @@
           'ch ch ch'
           '. w .' 
           'p . n';
-  grid-template-rows: 3fr 6fr 2fr;
+  grid-template-rows: 40vw 100vw 20vw;
   grid-gap: 1em;
   margin: 1em;
 }
