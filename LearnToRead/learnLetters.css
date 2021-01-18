@@ -1,7 +1,6 @@
 #page {
   background-image: url(./back.jpg);
   background-size: cover;
-  text-align: center;
   display: grid;
   grid-template-areas:
           'ch ch ch'
@@ -14,12 +13,10 @@
 
 #changeLetters {
   grid-area: ch;
-  margin: 0.5 em;
+  margin: 0.4em;
 }
 
 #word {
-  text-align: center;
-  align-self: end;
   grid-area: w;
   width: 75vw;
   font-size: 75vw;
