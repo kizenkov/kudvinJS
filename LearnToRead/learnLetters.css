@@ -18,7 +18,7 @@
 }
 
 #word {
-  text-align: center;
+  aligh-self: end;
   grid-area: w;
   width: 80vw;
   font-size: 80vw;
@@ -31,7 +31,7 @@
   border: 0.1em solid crimson;
   width: 11em;
   height: 7em;
-  background-color: green;
+  background-color: aqua;
   border-radius: 2em;
 }
 
