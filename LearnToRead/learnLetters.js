@@ -8,8 +8,6 @@ words.push('Л', 'М', 'Н', 'О', 'П', 'Р');
 words.push('С', 'Т', 'У', 'Ф', 'Х', 'Ц');
 words.push('Ч', 'Ш', 'Щ', 'Ъ', 'Ы', 'Ь');
 words.push('Э', 'Ю', 'Я');
-next.disabled = true;
-prev.disabled = true;
 word.innerHTML = '!';
 
 let changeLetters = document.querySelectorAll('.changeLettersButton');
