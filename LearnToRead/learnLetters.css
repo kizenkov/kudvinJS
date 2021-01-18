@@ -20,7 +20,7 @@
   color: deeppink;
   font-weight: bold;
   transition: all .5s;
-  align-self: center;
+  align-self: unset;
 }
 
 #prevBtn, #nextBtn {
