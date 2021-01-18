@@ -18,6 +18,7 @@
 }
 
 #word {
+  text-align: center;
   align-self: end;
   grid-area: w;
   width: 75vw;
