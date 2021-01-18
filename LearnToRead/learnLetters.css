@@ -31,10 +31,7 @@
   font-size: 1em;
   background-color: aqua;
   border-radius: 0.5em;
-  width: auto;
-  height: 15vh;
   align-self: center;
-  margin: 0.5em;
 }
 
 #prevBtn {
