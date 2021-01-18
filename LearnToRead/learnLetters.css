@@ -7,6 +7,8 @@
           'ch ch ch'
           'p w n';
   grid-template-rows: 30vh 60vh;
+  grid-gap: 1em;
+  align-self: center;
 }
 
 #changeLetters {
@@ -16,7 +18,7 @@
 #word {
   grid-area: w;
   width: 60vw;
-  max-height: 50%;
+  max-height: 50vh;
   font-size: 60vw;
   color: deeppink;
   font-weight: bold;
@@ -30,7 +32,7 @@
   background-color: cyan;
   border-radius: 0.25em;
   margin: 2em;
-  height: 10vh;
+  width: auto;
 }
 
 #prevBtn {
@@ -44,9 +46,10 @@
 }
 
 .changeLettersButton {
-  font-size: 1.5em;
+  margin: 0.3em;
+  font-size: 1em;
   background-color: aqua;
-  border-radius: 0.5em;
+  border-radius: 0.25em;
 }
 
 h2 {
