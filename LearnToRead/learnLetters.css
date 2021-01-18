@@ -7,7 +7,7 @@
           'ch ch ch'
           'w w w' 
           'p . n';
-  grid-template-rows: 25vh 55vh 15vh;
+  grid-template-rows: 25vh 50vh 12vh;
   grid-gap: 1em;
   margin: 1em;
 }
@@ -20,8 +20,8 @@
 #word {
   aligh-self: end;
   grid-area: w;
-  width: 80vw;
-  font-size: 80vw;
+  width: 75vw;
+  font-size: 75vw;
   color: deeppink;
   font-weight: bold;
   transition: all .5s;
