@@ -15,10 +15,10 @@
 }
 
 #word {
+  text-align: center;
   grid-area: w;
   width: 75vw;
-  height: 50vh;
-  font-size: 80vw;
+  font-size: 70vw;
   color: deeppink;
   font-weight: bold;
   transition: all .5s;
@@ -28,11 +28,10 @@
 #prevBtn, #nextBtn {
   border: 0.1em solid crimson;
   font-size: 2vw;
-  background-color: green;
+  background-color: aqua;
   border-radius: 0.25em;
-  margin: 2em;
   width: auto;
-  height: 10vh;
+  height: 15vh;
   align-self: end;
 }
 
