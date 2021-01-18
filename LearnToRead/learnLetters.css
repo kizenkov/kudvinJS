@@ -16,7 +16,9 @@
 
 #word {
   grid-area: w;
-  font-size: 75vmin;
+  width: 75vw;
+  max-height: 40vh;
+  font-size: 50%;
   color: deeppink;
   font-weight: bold;
   transition: all .5s;
