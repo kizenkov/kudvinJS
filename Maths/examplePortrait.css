@@ -1,6 +1,6 @@
 body {
-  background-image: url(./back.jpg);
-  background-size: cover;
+  background-image: url(./backPortrait.jpg);
+  background-size: contain;
   margin-top: 3vw;
   display: grid;
   grid-template-areas: 'g1 g1'
@@ -22,6 +22,8 @@ body {
 
 .resultExample {
   grid-area: res;
+  justify-self: center;
+  align-self: center;
 }
 
 .primer {
