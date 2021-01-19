@@ -32,6 +32,7 @@
   height: 3em;
   background-color: aqua;
   border-radius: 2em;
+  align-self: center;
 }
 
 #prevBtn {
