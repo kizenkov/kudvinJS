@@ -7,7 +7,7 @@
           'ch ch ch'
           'w w w' 
           'p . n';
-  grid-template-rows: 25% 55% 10%;
+  grid-template-rows: 30% 60% 5%;
   grid-gap: 0.5em;
   margin: 0.5em;
 }
@@ -29,7 +29,7 @@
 #prevBtn, #nextBtn {
   border: 0.1em solid crimson;
   width: 11em;
-  height: 7em;
+  height: 3em;
   background-color: aqua;
   border-radius: 2em;
 }
