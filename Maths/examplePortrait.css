@@ -5,7 +5,7 @@ body {
   grid-template-areas: 'g1'
                         'b'
                         'res';
-  grid-template-rows: 63vh 14vh 14vh;
+  grid-template-rows: 58vh 13vh 10vh;
   grid-gap: 1vw;
   margin-top: 4vh;
 }
