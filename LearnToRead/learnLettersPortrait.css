@@ -20,7 +20,7 @@
 #word {
   grid-area: w;
   font-size: 80vw;
-  align-self: end;
+  align-self: center;
   color: deeppink;
   font-weight: bold;
   transition: all .5s;
