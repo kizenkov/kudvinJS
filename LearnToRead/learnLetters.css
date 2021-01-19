@@ -5,7 +5,7 @@
   text-align: center;
   grid-template-areas:
           'ch ch ch'
-          'w' 
+          'w w w' 
           'p . n';
   grid-template-rows: 20% 70% 10%;
   grid-gap: 1em;
@@ -30,7 +30,7 @@
   border: 0.1em solid crimson;
   width: 11em;
   height: 7em;
-  background-color: red;
+  background-color: green;
   border-radius: 2em;
 }
 
