@@ -1,0 +1,84 @@
+body {
+  background-image: url(./back.jpg);
+  background-size: cover;
+  margin-top: 3vw;
+  display: grid;
+  grid-template-areas: 'g1 g1'
+                        'b res';
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 60vh 20vh;
+  grid-gap: 1vw;
+}
+
+#grid1 {
+  grid-area: g1;
+}
+
+.button {
+  grid-area: b;
+  justify-self: center;
+  align-self: center;
+}
+
+.resultExample {
+  grid-area: res;
+}
+
+.primer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5vw;
+}
+
+.inline {
+  display: grid;
+  grid-template-columns: 10fr 1fr 3fr;
+  justify-items: center;
+}
+
+.num1, .num2 {
+  font-size: 6vw;
+  font-weight: bold;
+}
+
+.result1, .result2 {
+  font-size: 5vw;
+  font-weight: bold;
+  align-self: center;
+}
+
+.input1, .input2 {
+  width: 7vw;
+  height: 6vw;
+  font-size: 6vw;
+  font-weight: bold;
+  text-align: center;
+}
+
+.button {
+  background-color: cyan;
+  border: .5em solid cyan;
+  border-radius: 1em;
+  width: 40vw;
+  height: 10vw;
+  font-size: 5vw;
+}
+
+.ball {
+  color: blue;
+  font-size: 9vw;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+#timer {
+  font-size: 5vw;
+  color: blue;
+}
+
+.time {
+  color: darkviolet;
+  font-size: 2.5vw;
+  font-family: cursive;
+  font-weight: bold;
+}
