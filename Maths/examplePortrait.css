@@ -1,5 +1,5 @@
 body {
-  background-image: url(./backPortrait.jpg);
+  background-image: url(./back.jpg);
   background-size: contain;
   display: grid;
   grid-template-areas: 'g1'
