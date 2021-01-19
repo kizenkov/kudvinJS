@@ -30,10 +30,10 @@
 
 .prevBtn {
   grid-area: p;
-  align-self: end;
+  align-self: center;
 }
 
 .nextBtn {
   grid-area: n;
-  align-self: end;
+  align-self: center;
 }
