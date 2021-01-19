@@ -5,9 +5,9 @@
   text-align: center;
   grid-template-areas:
           'ch ch ch'
-          'w w w' 
+          'w' 
           'p . n';
-  grid-template-rows: 3fr 7fr 2fr;
+  grid-template-rows: 20% 70% 10%;
   grid-gap: 1em;
   margin: 1em;
 }
@@ -19,7 +19,6 @@
 
 #word {
   grid-area: w;
-  width: 80vw;
   font-size: 80vw;
   align-self: end;
   color: deeppink;
@@ -31,7 +30,7 @@
   border: 0.1em solid crimson;
   width: 11em;
   height: 7em;
-  background-color: aqua;
+  background-color: red;
   border-radius: 2em;
 }
 
