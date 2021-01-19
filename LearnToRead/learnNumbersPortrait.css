@@ -5,6 +5,7 @@
   text-align: center;
   grid-template-areas: 'num num'
                        'p n';
+  grid-template-rows: 70vh 20vh;
 }
 
 #number {
