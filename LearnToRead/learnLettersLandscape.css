@@ -1,0 +1,61 @@
+#page {
+  background-image: url(./back.jpg);
+  background-size: cover;
+  text-align: center;
+  display: grid;
+  grid-template-areas:
+          'ch ch ch'
+          'p w n';
+}
+
+#changeLetters {
+  grid-area: ch;
+}
+
+#word {
+  grid-area: w;
+  width: 60vw;
+  font-size: 70vh;
+  color: deeppink;
+  font-weight: bold;
+  transition: all .5s;
+}
+
+#prevBtn, #nextBtn {
+  border: 0.1em solid crimson;
+  font-size: 2vw;
+  background-color: cyan;
+  border-radius: 0.25em;
+  margin: 2em;
+  height: 10vh;
+}
+
+#prevBtn {
+  grid-area: p;
+  align-self: end;
+}
+
+#nextBtn {
+  grid-area: n;
+  align-self: end;
+}
+
+.changeLettersButton {
+  background-color: aqua;
+  border-radius: 0.5em;
+  color: crimson;
+}
+
+h2 {
+  color: crimson;
+}
+
+/*.sidebar {*/
+/*  position: fixed;*/
+/*  bottom: 550px;*/
+/*  left: 1100px;*/
+/*}*/
+
+/*.sidebar a:hover {*/
+/*  color: chartreuse;*/
+/*}*/
