@@ -1,0 +1,38 @@
+#page {
+  background-image: url(./back.jpg);
+  background-size: cover;
+  text-align: center;
+  display: grid;
+  grid-template-areas: 'p num n';
+  grid-template-columns: 2fr 7fr 2fr;
+}
+
+#number {
+  grid-area: num;
+  font-size: 80vh;
+  align-self: end;
+  color: deeppink;
+  font-weight: bold;
+  transition: all .5s;
+}
+
+#prevBtn, #nextBtn {
+  border: 0.1em solid crimson;
+  width: 5em;
+  height: 11em;
+  background-color: cyan;
+  border-radius: .5em;
+}
+
+.prevBtn {
+  grid-area: p;
+}
+
+.nextBtn {
+  grid-area: n;
+}
+
+.prevBtn, .nextBtn {
+  justify-content: center;
+  align-self: center;
+}
