@@ -2,7 +2,7 @@ let start = new Date();
 let arr = [];
 
 let newExample = {
-  colorsArray: ['yellow', 'blueviolet', 'crimson', 'deeppink', 'green', 'lightcoral', 'blue', 'purple', 'brown'],
+  colorsArray: ['blueviolet', 'crimson', 'deeppink', 'green', 'lightcoral', 'blue', 'purple', 'brown'],
   input1: null,
   result1: null,
   input2: null,
