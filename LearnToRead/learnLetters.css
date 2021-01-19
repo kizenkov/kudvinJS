@@ -7,7 +7,7 @@
           'ch ch ch'
           'w w w' 
           'p . n';
-  grid-template-rows: 30% 60% 5%;
+  grid-template-rows: 30% 65% 5%;
   grid-gap: 0.5em;
   margin: 0.5em;
 }
