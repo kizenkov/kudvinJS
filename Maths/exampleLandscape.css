@@ -1,6 +1,6 @@
 body {
   background-image: url(./back.jpg);
-  background-size: cover;
+  background-size: contain;
   margin-left: 15vw;
   margin-right: 15vw;
   margin-top: 3vw;
