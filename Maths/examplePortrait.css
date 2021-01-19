@@ -1,12 +1,11 @@
 body {
   background-image: url(./backPortrait.jpg);
   background-size: contain;
-  margin-top: 3vw;
   display: grid;
-  grid-template-areas: 'g1 g1'
-                        'b res';
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 60vh 20vh;
+  grid-template-areas: 'g1'
+                        'b'
+                        'res';
+  grid-template-rows: 65vh 15vh 15vh;
   grid-gap: 1vw;
 }
 
@@ -73,14 +72,13 @@ body {
   font-weight: bold;
 }
 
-#timer {
-  font-size: 5vw;
-  color: blue;
-}
-
 .time {
   color: darkviolet;
   font-size: 2.5vw;
   font-family: cursive;
   font-weight: bold;
+}
+
+#time {
+  text-align: center;
 }
