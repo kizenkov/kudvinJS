@@ -5,8 +5,9 @@ body {
   grid-template-areas: 'g1'
                         'b'
                         'res';
-  grid-template-rows: 65vh 15vh 15vh;
+  grid-template-rows: 63vh 14vh 14vh;
   grid-gap: 1vw;
+  margin-top: 4vh;
 }
 
 #grid1 {
@@ -28,7 +29,7 @@ body {
 .primer {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 5vw;
+  margin-bottom: 7vh;
 }
 
 .inline {
