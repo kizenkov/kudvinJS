@@ -29,17 +29,21 @@
 #prevBtn, #nextBtn {
   border: 0.1em solid crimson;
   width: 11em;
-  height: 3em;
+  height: 5em;
   background-color: aqua;
-  border-radius: 2em;
+  border-radius: .5em;
+}
+
+.prevBtn, .nextBtn {
+  justify-content: center;
   align-self: center;
 }
 
-#prevBtn {
+.prevBtn {
   grid-area: p;
 }
 
-#nextBtn {
+.nextBtn {
   grid-area: n;
 }
 
