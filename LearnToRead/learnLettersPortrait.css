@@ -32,8 +32,12 @@
   height: 3em;
   background-color: aqua;
   border-radius: .5em;
-  align-self: center;
 }
+
+.prevBtn, .nextBtn {
+  justify-content: center;
+  align-self: center;
+
 
 #prevBtn {
   grid-area: p;
