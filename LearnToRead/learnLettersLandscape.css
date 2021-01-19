@@ -10,12 +10,14 @@
 
 #changeLetters {
   grid-area: ch;
+  margin: 0.4em;
 }
 
 #word {
   grid-area: w;
   width: 60vw;
   font-size: 70vh;
+  align-self: end;
   color: deeppink;
   font-weight: bold;
   transition: all .5s;
@@ -23,39 +25,28 @@
 
 #prevBtn, #nextBtn {
   border: 0.1em solid crimson;
-  font-size: 2vw;
+  width: 5em;
+  height: 11em;
   background-color: cyan;
-  border-radius: 0.25em;
-  margin: 2em;
-  height: 10vh;
+  border-radius: 2em;
+  align-self: center;
 }
 
 #prevBtn {
   grid-area: p;
-  align-self: end;
 }
 
 #nextBtn {
   grid-area: n;
-  align-self: end;
 }
 
 .changeLettersButton {
+  margin: 0.1em;
+  font-size: 1.2em;
   background-color: aqua;
-  border-radius: 0.5em;
-  color: crimson;
+  border-radius: 0.25em;
 }
 
 h2 {
   color: crimson;
 }
-
-/*.sidebar {*/
-/*  position: fixed;*/
-/*  bottom: 550px;*/
-/*  left: 1100px;*/
-/*}*/
-
-/*.sidebar a:hover {*/
-/*  color: chartreuse;*/
-/*}*/
