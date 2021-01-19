@@ -5,9 +5,9 @@ body {
   grid-template-areas: 'g1'
                         'b'
                         'res';
-  grid-template-rows: 58vh 13vh 10vh;
+  grid-template-rows: 67vh 13vh 10vh;
   grid-gap: 1vw;
-  margin-top: 4vh;
+  margin-top: 2vh;
 }
 
 #grid1 {
