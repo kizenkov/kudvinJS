@@ -36,11 +36,11 @@
   align-self: center;
 }
 
-#prevBtn {
+.prevBtn {
   grid-area: p;
 }
 
-#nextBtn {
+.nextBtn {
   grid-area: n;
 }
 
