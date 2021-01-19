@@ -7,9 +7,9 @@
           'ch ch ch'
           'w w w' 
           'p . n';
-  grid-template-rows: 20% 60% 10%;
-  grid-gap: 1em;
-  margin: 1em;
+  grid-template-rows: 25% 55% 10%;
+  grid-gap: 0.5em;
+  margin: 0.5em;
 }
 
 #changeLetters {
