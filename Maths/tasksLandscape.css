@@ -1,0 +1,94 @@
+body {
+    background-image: url(./back.jpg);
+    background-size: contain;
+}
+
+.tasks {
+    display: grid;
+    grid-template-areas: 'task task task '
+                        'tabl answ but'
+                        'res res res';
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 40vh 30vh 20vh;
+    grid-gap: 3vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+#task {
+    grid-area: task;
+    text-align: center;
+    background-color: aqua;
+    border: .1em solid chocolate;
+    border-radius: 1em;
+    padding: 5vh;
+    margin-top: 3vh;
+    font-size: 6vh;
+    vertical-align: center;
+    width: 70vw;
+    height: auto;
+    color: darkblue;
+    align-self: center;
+    justify-self: center;
+}
+
+#answer {
+    grid-area: answ;
+    font-size: 10vh;
+    color: darkviolet;
+    font-weight: bold;
+    align-self: center;
+    justify-self: center;
+}
+
+#input {
+    grid-area: inp;
+    color: crimson;
+    width: 10vh;
+    height: 9vh;
+    font-size: 9vh;
+    font-weight: bold;
+    text-align: center;
+}
+
+#button {
+    grid-area: but;
+    align-self: center;
+    justify-self: start;
+    background-color: cyan;
+    border: .5em solid cyan;
+    border-radius: .5em;
+    width: 40vh;
+    height: 12vh;
+    font-size: 5vh;
+}
+
+#result {
+    grid-area: res;
+    font-size: 10vh;
+    font-weight: bold;
+    font-family: cursive;
+    align-self: center;
+    justify-self: center;
+}
+
+table {
+    grid-area: tabl;
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+    font-size: 6vh;
+    align-self: center;
+    justify-self: center;
+}
+
+th {
+    color: green;
+    width: 4vw;
+}
+
+td {
+    color: red;
+    width: 4vw;
+
+}
