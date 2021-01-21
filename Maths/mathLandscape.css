@@ -1,0 +1,128 @@
+/*all properties*/
+body {
+  background-image: url(./../back.jpg);
+  background-size: contain;
+}
+
+#grid1 {
+  grid-area: g1;
+}
+
+.button {
+  grid-area: b;
+  align-self: center;
+  justify-self: center;
+  background-color: cyan;
+  border: .5em solid cyan;
+  border-radius: 1em;
+  width: 40vh;
+  height: 12vh;
+  font-size: 5vh;
+}
+
+.resultLesson {
+  grid-area: res;
+  justify-self: center;
+  align-self: center;
+}
+
+.result {
+  color: blue;
+  font-size: 9vh;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.num1, .num2, .numFirst1, .numFirst2, .numSecond1, .numSecond2, .sign1, .sign2 {
+  font-size: 7vh;
+  font-weight: bold;
+}
+
+.result1, .result2 {
+  font-size: 6vh;
+  font-weight: bold;
+  align-self: center;
+}
+
+.input1, .input2 {
+  width: 8vh;
+  height: 7vh;
+  font-size: 6vh;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*examples*/
+.example {
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-top: 3vh;
+  display: grid;
+  grid-template-areas: 'g1 g1'
+                        'b res';
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 70vh 20vh;
+  grid-gap: 1vh;
+}
+
+.primerExample {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-self: center;
+}
+
+.inlineExample {
+  display: grid;
+  width: 50vh;
+  grid-template-columns: 10fr 1fr 3fr;
+  justify-items: center;
+  margin: 3vh;
+}
+
+.time {
+  color: darkviolet;
+  font-size: 2.5vh;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+#time {
+  text-align: center;
+}
+
+/*insert value*/
+.insertValue {
+  margin-top: 2vh;
+  display: grid;
+  grid-template-areas: 'g1 g1 g1'
+                        't b res';
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 70vh 20vh;
+  grid-gap: 1vh;
+}
+
+.primerInsertValue {
+  display: grid;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-self: center;
+}
+
+.inlineInsertValue {
+  display: grid;
+  width: 50vh;
+  grid-template-columns: 1fr 1fr 1fr 2fr 1fr;
+  justify-items: center;
+  margin: 3vh;
+}
+
+#timer {
+  grid-area: t;
+  font-size: 5vh;
+  color: blue;
+  justify-self: center;
+  align-self: center;
+}

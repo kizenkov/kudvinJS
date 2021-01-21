@@ -1,0 +1,22 @@
+body {
+  background-image: url(./../back.jpg);
+  background-size: contain;
+  display: grid;
+  grid-template-rows: repeat(4, 22vh);
+}
+
+a {
+  color: cornflowerblue;
+  text-decoration: none;
+  font-size: 5vh;
+  border: .5vh solid darksalmon;
+  border-radius: 5vh;
+  padding: 5vh;
+  background-color: palegoldenrod;
+
+}
+
+div {
+  align-self: center;
+  justify-self: center;
+}
