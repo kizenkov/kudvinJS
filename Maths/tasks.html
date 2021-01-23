@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задачки</title>
+    <link rel='stylesheet' media='all and (orientation:portrait)' href='tasksPortrait.css'>
+    <link rel='stylesheet' media='all and (orientation:landscape)' href='tasksLandscape.css'>
+</head>
+<body>
+<div class='tasks'>
+    <table border="1">
+        <tr>
+            <th>✓</th>
+            <th id='scoreTrue'></th>
+        </tr>
+        <tr>
+            <td>❌</td>
+            <td id='scoreFalse'></td>
+        </tr>
+    </table>
+    <div id='task'></div>
+    <div id='answer'>
+        Ответ:
+    <input type='text' id='input' maxlength='2'/>
+    </div>
+    <button id='button'>Принять</button>
+    <div id='result'></div>
+</div>
+<script src='tasks.js'></script>
+</body>
+</html>

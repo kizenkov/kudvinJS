@@ -1,0 +1,64 @@
+#page {
+  background-image: url(./back.jpg);
+  background-size: cover;
+  display: grid;
+  text-align: center;
+  grid-template-areas:
+          'ch ch ch'
+          'w w w'
+          'p . n';
+  grid-template-rows: 30% 65% 5%;
+  grid-gap: 0.5em;
+  margin: 0.5em;
+}
+
+#changeLetters {
+  grid-area: ch;
+  margin: 0.4em;
+}
+
+#word {
+  grid-area: w;
+  font-size: 80vw;
+  align-self: end;
+  justify-self: center;
+  color: deeppink;
+  font-weight: bold;
+  transition: all .5s;
+}
+
+#prevBtn, #nextBtn {
+  border: 0.1em solid crimson;
+  width: 11em;
+  height: 5em;
+  background-color: aqua;
+  border-radius: .5em;
+}
+
+#prevBtn:hover, #nextBtn:hover {
+  cursor: pointer;
+}
+
+.prevBtn, .nextBtn {
+  justify-content: center;
+  align-self: center;
+}
+
+.prevBtn {
+  grid-area: p;
+}
+
+.nextBtn {
+  grid-area: n;
+}
+
+.changeLettersButton {
+  margin: 0.1em;
+  font-size: 1.2em;
+  background-color: aqua;
+  border-radius: 0.25em;
+}
+
+h2 {
+  color: crimson;
+}

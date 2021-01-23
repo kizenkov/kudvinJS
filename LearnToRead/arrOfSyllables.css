@@ -1,0 +1,38 @@
+body {
+  background-image: url(./back.jpg);
+  background-size: cover;
+}
+
+#table {
+  display: grid;
+  justify-self: center;
+}
+
+th {
+  font-size: 3vw;
+  padding: .5vw;
+  border: 3px solid black;
+  background-color: white;
+}
+
+th:hover {
+  background-color: chartreuse;
+  cursor: zoom-in;
+}
+
+.newSyllable {
+  text-align: center;
+  font-size: 32vw;
+  background-color: chartreuse;
+  position: fixed;
+  bottom: 5vh;
+  left: 5vw;
+  width: 90vw;
+  height: 90vh;
+  border-radius: .5em;
+  transition: all .5s;
+}
+
+.newSyllable:hover {
+  cursor: zoom-out;
+}
