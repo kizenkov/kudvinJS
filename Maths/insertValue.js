@@ -3,7 +3,7 @@ let result = document.querySelector('.result');
 let timer = document.querySelector('#timer');
 
 let newExample = {
-    colorsArray: ['yellow', 'blueviolet', 'crimson', 'deeppink', 'green', 'lightcoral', 'blue', 'purple', 'brown'],
+    colorsArray: ['deeppink', 'blueviolet', 'green', 'orange', 'blue', 'saddlebrown', 'gold'],
     input1: null,
     result1: null,
     input2: null,
