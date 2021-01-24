@@ -25,6 +25,7 @@ th:hover {
 .newSyllable {
   text-align: center;
   font-size: 60vh;
+  font-weight: bold;
   background-color: chartreuse;
   position: fixed;
   left: 10vw;
