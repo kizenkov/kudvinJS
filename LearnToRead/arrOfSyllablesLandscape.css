@@ -24,15 +24,15 @@ th:hover {
 
 .newSyllable {
   text-align: center;
-  font-size: 60vh;
+  font-size: 55vh;
   font-weight: bold;
   background-color: chartreuse;
   position: fixed;
   left: 10vw;
   right: 10vw;
   width: auto;
-  top: 10vh;
-  bottom: 10vh;
+  top: 5vh;
+  bottom: 5vh;
   padding: 2vw;
   border-radius: .25em;
   transition: all .25s;
