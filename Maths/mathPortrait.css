@@ -111,7 +111,7 @@ body {
 
 .inlineInsertValue {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 2fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 2.5fr 1fr;
   justify-items: center;
   margin: 3vw;
   width: 37vw;
