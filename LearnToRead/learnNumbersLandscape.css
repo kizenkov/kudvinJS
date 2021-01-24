@@ -26,6 +26,7 @@
 
 #prevBtn:hover, #nextBtn:hover {
   cursor: pointer;
+  font-size: 100%;
 }
 
 .prevBtn {
